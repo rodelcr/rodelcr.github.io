@@ -1,12 +1,13 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: research
+permalink: /research/
+description: Below are some of the main topics I have worked on so far.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
-horizontal: false
+display_categories:
+horizontal: true
+
 ---
 
 <!-- pages/projects.md -->
@@ -41,7 +42,7 @@ horizontal: false
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row row-cols-1">
     {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}

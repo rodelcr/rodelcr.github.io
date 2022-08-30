@@ -1,8 +1,6 @@
 <div class="card-item col">
   {%- if project.redirect -%}
   <a href="{{ project.redirect }}">
-  {%- else -%}
-  <a href="{{ project.url | relative_url }}">
   {%- endif -%}
     <div class="card hoverable">
       <div class="row g-0">
@@ -36,5 +34,4 @@
         </div>
       </div>
     </div>
-  </a>
 </div>
