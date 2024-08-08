@@ -1,7 +1,7 @@
 ---
 layout: page2
-permalink: /other/
-title: other
+permalink: /community-engagement/
+title: Community Engagement
 description:
 nav: true
 nav_order: 3
