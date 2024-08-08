@@ -1,6 +1,6 @@
 ---
-layout: about
-title: about
+layout: About
+title: About
 permalink: /
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 subtitle: 
@@ -19,9 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Rodrigo, I'm a final year Ph.D. Candidate in the Department of Astrophysical Sciences at Princeton University.
+My name is Rodrigo, I'm a final year Ph.D. Candidate in the Department of Astrophysical Sciences at Princeton University. Working with Prof. Jenny Greene and Dr. Andy Goulding, I study the evolution and impact of supermassive black holes on galaxy formation via observations of Active Galactic Nuclei, also known as quasars. My scholarship aims to exploit different analysis techniques to ask questions about the evolution of galaxies in the Universe, and learn more about the fundamental physical properties that underlie these processes, which you can read more about in the [research](https://rodrigocr.github.io/research/) tab.
 
+I was born and raised on my home island of Puerto Rico, and am an enrolled citizen of the Osage Nation. I did my undergraduate degrees in Astrophysics and Physics at Harvard University, and did an MPhil in Archaeology of the Americas with a focus in Archaeoastronomy at Cambridge University as a Gates Cambridge Scholar. As part of my archaeological work, I am interested in monumental architecture and the ways it may encode the way ancestral communities saw the cosmos. In particular, I have developed novel analyses of the astronomical alignments of Ancestral Puebloan structures in the American Southwest, and discovered a set of astronomical alignments in classical Mesoamerican architecture.
 
-<!-- I'm Gabi, a theoretical physicist interested in cosmology and astrophysics and I'm currently a postdoctoral member at the [Institute for Advanced Study](https://www.ias.edu/scholars/gabriela-sato-polito). I received my PhD in 2023 from Johns Hopkins University, advised by [Prof. Marc Kamionkowski](https://sites.krieger.jhu.edu/kamionkowski/). My research aims to explore novel observational techniques to tackle long-standing questions about the origin, evolution, and composition of the Universe, which you can read more about in the [research](https://gsatopolito.github.io/research/) tab.
-
-Before starting graduate school at JHU, I was an undergraduate in an [interdisciplinary sciences](https://cecm.usp.br/) program at Universidade de São Paulo, where I worked with [Prof. Raul Abramo](http://fma.if.usp.br/~abramo/index.html/Home.html) on the formation of large-scale structures in the matter distribution of the Universe. -->
