@@ -45,16 +45,11 @@ body {
 <body>
 
 
-<div class="row mt-3">
+One of my favorite events has been collaborating with the STEAM Teaching at Arecibo (STAR) to share all sorts of knowledge about our universe with young students in Puerto Rico. 
+
+<!-- <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/gallery.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
+</div> -->
 
-
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/clown_motel.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>

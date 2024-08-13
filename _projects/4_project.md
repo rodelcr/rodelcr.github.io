@@ -5,6 +5,6 @@ description: Following from my time doing an MPhil in Archaeology of the America
 
 I have also been working on developing interpretive frameworks for anthropological analyses of the influence of astronomical phenomena on the development of human culture and practice. 
 img: 
-importance: 3
+importance: 1
 category:
 ---
