@@ -52,11 +52,6 @@ body {
     </div>
 </div>
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/20230501-14_36_38.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 
 <!-- Photo Grid -->
@@ -71,6 +66,31 @@ body {
   <img src="../assets/img/20211010-15_56_56-BW.jpg" style="width:100%">
   </div>  
 </div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/20230501-14_36_38.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/IMG_4029.jpeg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+  <img src="../assets/img/IMG_1417.jpeg" style="width:100%">
+    </div>
+  <div class="column">
+  <img src="../assets/img/IMG_0863.jpeg" style="width:100%">
+  </div>  
+</div>
+
+
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
