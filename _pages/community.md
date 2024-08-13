@@ -53,7 +53,7 @@ body {
 </div>
 
 
-I have been very happy to contribute to STEAM Teaching at Arecibo (STAR) Academy, where we've worked on a range of presentations for middle-high schoolers to learn about modern and ancient astronomy. 
+I have been very happy over the last several years to contribute to STEAM Teaching at Arecibo (STAR) Academy, where we've worked on a range of presentations for Puerto Rican middle and high schoolers to learn about modern and ancient astronomy. 
 
 
 <div class="row mt-3">
@@ -73,6 +73,4 @@ I've produced a series of lectures developed alongside elders and language instr
   </div>  
 </div>
 
-I recently gave a TED talk about the ways we interpret the masses of galaxies, and how these measurements are helping us understand the evolution of quasars (image courtesy of Sam Cohen, TEDxMahwah). Video will be uploaded soon! 
-For three years, I worked with the Princeton University Preparatory Program (PUPP) doing afternoon enrichment sessions (developing critical reading, presentation, and argumentative skills) in local highschools in central New Jersey for underserved student populations. 
-I've also been proud to partner with HISPA (Hispanics Inspiring Students’ Performance and Achievement) to educate more students about the preparation and path to be a scientist. 
+I recently gave a TED talk about the ways we interpret the masses of galaxies, and how these measurements are helping us understand the evolution of quasars (image courtesy of Sam Cohen, TEDxMahwah). Video will be uploaded soon! For three years, I worked with the Princeton University Preparatory Program (PUPP) doing afternoon enrichment sessions (developing critical reading, presentation, and argumentative skills) in local highschools in central New Jersey for underserved student populations. I've also been proud to partner with HISPA (Hispanics Inspiring Students’ Performance and Achievement) to educate more students about the preparation and path to be a scientist. I also like to write about astronomy in the most-circulated Puerto Rican newspaper, el Nuevo Día. You can find clippings of my articles and their translations <a href="https://drive.google.com/drive/folders/1YD75A-IMlx4lFywhc-yM-L9Q_g0DcvrZ?usp=share_link">here</a>.
