@@ -2,13 +2,15 @@
 layout: page
 title: Research
 permalink: /research/
-description: Below are some of the main topics I have worked on so far, a full list of publications can be found [here](https://rodelcr.github.io/assets/pdf/pubs.pdf).
+description:
 nav: true
 nav_order: 2
 display_categories:
 horizontal: true
 
 ---
+Below are some of the main topics I have worked on so far, a full list of publications can be found [here](https://rodelcr.github.io/assets/pdf/pubs.pdf).
+
 <!-- pages/projects.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
