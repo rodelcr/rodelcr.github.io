@@ -7,8 +7,8 @@ nav: true
 nav_order: 4
 ---
 
-<!-- Drawing has been my long-standing hobby ever since I started doodling on the margins of my notebooks as a kid. I've been struggling against watercolor for a few years and recently started learning oil painting and dabbling in digital painting. I've been completely self-taught until fairly recently, when I began attending classes during the weekend at a small art school in Baltimore. Below you can see some of my paintings in the three aforementioned media!
- -->
+Visual arts have been a passion of mine as long as I can rememeber. From oil paiting to photography, I love to capture a moment in time, space, and imagination. Below you can see some of this work. 
+
 
 <style>
 * {
@@ -48,24 +48,38 @@ body {
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gallery.jpeg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/20221010-06_45_03.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/20230501-14_36_38.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
 <!-- Photo Grid -->
 <div class="row">
   <div class="column">
-  <img src="../assets/img/copan.png" style="width:100%">
-  <img src="../assets/img/beach.jpeg" style="width:100%">
+  <img src="../assets/img/20240717-05_25_00.jpg" style="width:100%">
+  <img src="../assets/img/20240628-10_25_10.jpg" style="width:100%">
 
     </div>
   <div class="column">
-  <img src="../assets/img/split.jpeg" style="width:100%">
-  <img src="../assets/img/feira.png" style="width:100%">
+  <img src="../assets/img/20211009-19_49_52.jpg" style="width:100%">
+  <img src="../assets/img/20211010-15_56_56-BW.jpg" style="width:100%">
   </div>  
 </div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/clown_motel.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/20230102-14_26_19.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/20230429-00_58_42.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

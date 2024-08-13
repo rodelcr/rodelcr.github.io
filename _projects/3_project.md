@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Spectroscopic follow-up of HSC+WISE AGN
-description: Pulsar timing arrays are expected to soon detect nanohertz gravitational waves (GWs) and I'm interested in exploring new signatures that can be used to learn about the origin of such signal. In a <a href="https://arxiv.org/abs/2111.05867">recent publication</a>, we showed that the circular polarization of the GW background may be detectable and informative about the properties of the GW sources.
+title: spectroscopic follow-up of quasar clustering
+description: We currently study the real-space spatial correlations between spectroscopically-observed Active Galactic Nuclei (AGN) by combing our HSC-derived quasar sample with Dark Energy Spectroscopic Instrument (DESI) survey validation data. With this new information, we have precise redshifts and emission lines with which we can confirm the AGN classification. We're wrapping up the last steps of the analysis and are excited to share more in the coming months. 
 img: 
 importance: 3
 category:

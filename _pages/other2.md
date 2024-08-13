@@ -7,8 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-<!-- Drawing has been my long-standing hobby ever since I started doodling on the margins of my notebooks as a kid. I've been struggling against watercolor for a few years and recently started learning oil painting and dabbling in digital painting. I've been completely self-taught until fairly recently, when I began attending classes during the weekend at a small art school in Baltimore. Below you can see some of my paintings in the three aforementioned media!
- -->
+One of my favorite parts about being a scientist is getting to communicate our passion for the cosmos and all its wonderful mysteries with the public. I especially enjoy sharing the little we've learned about our place in the universe with young people in places like Puerto Rico and the Osage Nation reservation. 
 
 <style>
 * {
