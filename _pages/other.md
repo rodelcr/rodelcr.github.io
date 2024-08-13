@@ -103,3 +103,6 @@ body {
         {% include figure.html path="assets/img/20230429-00_58_42.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+
+Please do not reproduce these images without attribution. All rights reserved, Rodrigo Córdova Rosado, 2024. 
