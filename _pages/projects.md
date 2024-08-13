@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-description: Below are some of the main topics I have worked on so far, a full list of publications can be found <a href="https://rodelcr.github.io/assets/pdf/pubs.pdf">here</a>.
+description: Below are some of the main topics I have worked on so far, a full list of publications can be found [here](https://rodelcr.github.io/assets/pdf/pubs.pdf).
 nav: true
 nav_order: 2
 display_categories:
