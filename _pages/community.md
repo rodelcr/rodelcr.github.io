@@ -27,14 +27,14 @@ body {
 
 /* Create two equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 50%;
+  float: center;
+  width: 100%;
   padding: 10px;
 }
 
-.column img {
+/* .column img {
   margin-top: 12px;
-}
+} */
 
 /* Clear floats after the columns */
 .row:after {
@@ -51,3 +51,21 @@ body {
         {% include figure.html path="assets/img/20221010-06_45_03.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+I have been very happy to contribute to STEAM Teaching at Arecibo (STAR) Academy, where we've worked on a range of presentations for middle-high schoolers to learn about modern and ancient astronomy. 
+
+
+I've produced a series of lectures developed alongside elders and language instructors for elementary and middle school astronomy classes in 𐓏𐒰𐓓𐒰𐓓𐒷 𐒻𐒷, the Osage Language. You can read more about this work in a recent press review [here](https://osagenews.org/giving-back-osage-and-the-stars/).
+
+
+I've also been proud to partner with HISPA (Hispanics Inspiring Students’ Performance and Achievement) to educate more students about the preparation and path to be a scientist. 
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+  <img src="../assets/img/tedx.jpg" style="width:100%">
+
+  </div>  
+</div>
+
+I recently gave a TED talk about the ways we interpret the masses of galaxies, and how these measurements are helping us understand the evolution of quasars. Video will be uploaded soon!
