@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-Visual arts have been a passion of mine as long as I can rememeber. From oil paiting to photography, I love to capture a moment in time, space, and imagination. Below you can see some of this work. 
+Visual arts have been a passion of mine as long as I can rememeber. From oil painting to photography, I love to capture a moment in time, space, and imagination. Below you can see some of this work. 
 
 <style>
 * {
