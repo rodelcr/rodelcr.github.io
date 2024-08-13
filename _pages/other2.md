@@ -50,18 +50,8 @@ body {
         {% include figure.html path="assets/img/gallery.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<!-- Photo Grid -->
-<div class="row">
-  <div class="column">
-  <img src="../assets/img/copan.png" style="width:100%">
-  <img src="../assets/img/beach.jpeg" style="width:100%">
 
-    </div>
-  <div class="column">
-  <img src="../assets/img/split.jpeg" style="width:100%">
-  <img src="../assets/img/feira.png" style="width:100%">
-  </div>  
-</div>
+
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
