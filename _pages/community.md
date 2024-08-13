@@ -68,7 +68,7 @@ I've produced a series of lectures developed alongside elders and language instr
 <!-- Photo Grid -->
 <div class="row">
   <div class="column">
-  <img src="../assets/img/tedx.jpg" style="width:70%">
+  <img src="../assets/img/tedx.jpg" style="width:100%">
 
   </div>  
 </div>
