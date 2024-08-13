@@ -2,12 +2,13 @@
 layout: page2
 permalink: /community-engagement/
 title: Community Engagement
-description:
+description: 
 nav: true
 nav_order: 3
 ---
 
 One of my favorite parts about being a scientist is getting to communicate our passion for the cosmos and all its wonderful mysteries with the public. I especially enjoy sharing the little we've learned about our place in the universe with young people in places like Puerto Rico and the Osage Nation reservation. 
+
 
 <style>
 * {
@@ -45,11 +46,8 @@ body {
 <body>
 
 
-One of my favorite events has been collaborating with the STEAM Teaching at Arecibo (STAR) to share all sorts of knowledge about our universe with young students in Puerto Rico. 
-
-<!-- <div class="row mt-3">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gallery.jpeg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/20221010-06_45_03.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
-</div> -->
-
+</div>
