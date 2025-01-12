@@ -4,7 +4,7 @@ permalink: /community-engagement/
 title: Community Engagement
 description: 
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 One of my favorite parts about being a scientist is getting to communicate our passion for the cosmos and all its wonderful mysteries with the public. I especially enjoy sharing the little we've learned about our place in the universe with young people in places like Puerto Rico and the Osage Nation reservation. 

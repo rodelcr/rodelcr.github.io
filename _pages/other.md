@@ -4,7 +4,7 @@ permalink: /other/
 title: Other
 description:
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 Visual arts have been a passion of mine as long as I can rememeber. From oil painting to photography, I love to capture a moment in time, space, and imagination. Below you can see some of this work. 
