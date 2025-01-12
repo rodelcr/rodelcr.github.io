@@ -6,19 +6,17 @@ description:
 nav: true
 nav_order: 3
 ---
-Here you can find slides from recent presentations I have had the chance to give:
+Here you can find slides from selected recent presentations I have had the chance to give:
 
-2025/01/13: AAS 245th Meeting Oral Presentation - <a href="aa">Black Hole Growth and Connections to Dark Matter Halos: New insights from Wide-field Cosmological Surveys</a>
+2025/01/13: AAS 245th Meeting Oral Presentation - <a href="https://drive.google.com/file/d/16qM211K9-lKMUZbn7htrLWDRkZc0OozP/view?usp=drive_link">Black Hole Growth and Connections to Dark Matter Halos: New insights from Wide-field Cosmological Surveys</a>
 
+2024/11: Explore the Universe @ Museum of Science, Boston - <a href="https://drive.google.com/file/d/16qMyHqs_ogJftyaL5ZN947xiipfiRhQB/view?usp=drive_link">Native American Heritage Month Presentation</a>
 
-2024/11: AAS 245th Meeting Oral Presentation - <a href="aa">Black Hole Growth and Connections to Dark Matter Halos: New insights from Wide-field Cosmological Surveys</a>
+2024/09: TEDxMahwah - <a href="https://www.youtube.com/watch?v=oM_ayMt8E5c">The History of the Universe, as Told by Dark Matter</a>
 
-
-2024/09: AAS 245th Meeting Oral Presentation - <a href="aa">Black Hole Growth and Connections to Dark Matter Halos: New insights from Wide-field Cosmological Surveys</a>
-
-
+2024/05: 𐓈𐓘𐓬𐓪𐓮𐓤𐓘 𐒰͘𐓤𐓪𐓰𐓘𐓬𐓣 Presentation - <a href="https://drive.google.com/file/d/16qQrQwD3kxGjUzsfdQKA-ZDtnvjxsQQJ/view?usp=drive_link">𐓈𐒰𐓈𐒰͘ 𐒻𐓄𐒰𐒹𐓂͘𐒻𐓊𐒷 (Relativity)</a>
 
 
+Please feel free to reach out if there are any slides from other (public) presentations you would like to see!
 
 
-I recently gave a <a href="https://www.youtube.com/watch?v=oM_ayMt8E5c">TED talk</a> about the ways we interpret the masses of galaxies, and how these measurements are helping us understand the evolution of quasars (image courtesy of Sam Cohen, TEDxMahwah). For three years, I worked with the Princeton University Preparatory Program (PUPP) doing afternoon enrichment sessions (developing critical reading, presentation, and argumentative skills) in local highschools in central New Jersey for underserved student populations. I've also been proud to partner with HISPA (Hispanics Inspiring Students’ Performance and Achievement) to educate more students about the preparation and path to be a scientist. I also like to write about astronomy in the most-circulated Puerto Rican newspaper, el Nuevo Día. You can find clippings of my articles and their translations <a href="https://drive.google.com/drive/folders/1YD75A-IMlx4lFywhc-yM-L9Q_g0DcvrZ?usp=share_link">here</a>.
