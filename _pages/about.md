@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Rodrigo, and I am the [AGEL](https://sites.google.com/view/agelsurvey/) Postdoctoral Fellow at the Smithsonian Astrophysical Observatory, part of the Center for Astrophysics | Harvard & Smithsonian. 
+My name is Rodrigo, and I am the [AGEL](https://sites.google.com/view/agelsurvey/) Postdoctoral Fellow at the Smithsonian Astrophysical Observatory, part of the Center for Astrophysics -- Harvard & Smithsonian. 
 
 My work involves leveraging strong gravitational galaxy-galaxy lenses to understand fundamental properties of the universe. I completed my Ph.D. as a Ford Foundation Pre-Doctoral Fellow in the Department of Astrophysical Sciences at Princeton University, working with Prof. Jenny Greene and Dr. Andy Goulding. My thesis focused the evolution and impact of supermassive black holes on galaxy formation via observations of Active Galactic Nuclei, also known as quasars. My scholarship aims to exploit different analysis techniques to ask questions about the evolution of galaxies in the Universe, and learn more about the fundamental physical properties that underlie these processes, which you can read more about in the [research](https://rodelcr.github.io/research/) tab. 
 
