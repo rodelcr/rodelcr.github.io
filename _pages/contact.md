@@ -12,6 +12,7 @@ description: Postdoctoral Fellow · Center for Astrophysics | Harvard & Smithson
     width: 220px;
     height: 220px;
     object-fit: cover;
+    object-position: center 18%;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
     margin-bottom: 1.5rem;
   }
