@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Pawhuska Observing — 2026-06-24 (night mode)</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <meta name="robots" content="noindex, nofollow">
+  <style>
+  :root{--bg:#000;--fg:#c21807;--dim:#7a0f04;--hi:#ff3b30;--line:#4d0000;--cbg:#160000;--cfg:#ff6b5b;}
+  html{-webkit-text-size-adjust:100%;}
+  body{background:var(--bg);color:var(--fg);font-family:"STIX Two Text",Georgia,"Times New Roman",serif;
+    font-size:18px;line-height:1.6;max-width:900px;margin:0 auto;padding:1.4rem 1.2rem 4rem;}
+  ::selection{background:#3a0000;color:var(--hi);}
+  a{color:var(--hi);text-decoration:underline;}
+  h1,h2,h3,h4{color:var(--hi);line-height:1.25;font-weight:700;}
+  h1{font-size:1.7rem;border-bottom:2px solid var(--line);padding-bottom:.35rem;margin-top:.4rem;}
+  h2{font-size:1.34rem;border-bottom:1px solid var(--line);padding-bottom:.22rem;margin-top:2rem;}
+  h3{font-size:1.12rem;color:var(--fg);}
+  hr{border:none;border-top:1px solid var(--line);margin:1.6rem 0;}
+  strong{color:var(--hi);}
+  em{color:var(--fg);}
+  code{background:var(--cbg);color:var(--cfg);padding:.12em .38em;border-radius:3px;
+    font-family:"SF Mono",Menlo,Consolas,monospace;font-size:.88em;}
+  table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.96rem;}
+  th,td{border:1px solid var(--line);padding:.42rem .55rem;text-align:left;vertical-align:top;}
+  th{color:var(--hi);background:#0d0000;}
+  tr:nth-child(even) td{background:#080000;}
+  blockquote{border-left:3px solid var(--line);margin:1rem 0;padding:.4rem 1rem;color:var(--dim);}
+  ul,ol{padding-left:1.4rem;}
+  li{margin:.2rem 0;}
+  #dimbar{position:fixed;top:0;right:0;display:flex;align-items:center;gap:.5rem;
+    background:#0a0000;border:1px solid var(--line);border-top:none;border-right:none;
+    border-radius:0 0 0 6px;padding:.35rem .6rem;font-size:.8rem;color:var(--dim);z-index:99;}
+  #dim{accent-color:var(--fg);width:90px;}
+  @media print{body{background:#fff;color:#000;}}
+  </style>
+</head>
+<body>
+<div id="dimbar"><span>dim</span><input id="dim" type="range" min="15" max="100" value="100" aria-label="brightness"><span>bright</span></div>
+<script>var d=document.getElementById('dim');d.addEventListener('input',function(){document.documentElement.style.filter='brightness('+(d.value/100)+')';});</script>
+<header id="title-block-header">
+<h1 class="title">Pawhuska Observing — 2026-06-24 (night mode)</h1>
+</header>
+<h1 id="public-observing-itinerary-pawhuska-ok-night-of-2026-06-24-into-06-25">Public Observing Itinerary — Pawhuska, OK — Night of 2026-06-24 (into 06-25)</h1>
+<h2 id="context">Context</h2>
+<p>Public outreach night with a Cassegrain, ~360° horizon, starting 9pm CDT. Goal: bright, eye-pleasing <strong>point sources</strong> (planets + double/colored stars), plus the Moon and globulars (which resolve to pinpoint stars in a Cassegrain). No galaxies/nebulae — and an 80%-lit Moon would wash those out anyway, so the sky cooperates with this plan.</p>
+<p>All alt/az computed with astropy (builtin ephemeris) for lat 36.67°N, lon −96.33°W. CDT = UTC−5.</p>
+<h3 id="sky-conditions-tonight">Sky conditions tonight</h3>
+<ul>
+<li><strong>Twilight:</strong> Sun −3° at 9pm (civil); <strong>astronomical dark (Sun &lt; −18°) ≈ 10:45pm.</strong> → 9:00–10:45 = bright-object / twilight window; deep-dark targets after.</li>
+<li><strong>Moon:</strong> ~80% waxing gibbous. 33° alt, due S at 9pm → sinks to SW, 16° by 1am. Showpiece terminator/crater detail. Hit it before it gets low.</li>
+<li><strong>Planets are all early &amp; low in the WEST and set fast</strong> — open with them.</li>
+<li><strong>Saturn</strong> doesn’t rise until ~2am — skip (outside the public window).</li>
+</ul>
+<hr />
+<h2 id="nexstar-setup-alignment-do-this-first">NexStar setup &amp; alignment — DO THIS FIRST</h2>
+<p><strong>Site / time entry:</strong> Pawhuska, OK — lat <strong>36.67° N</strong>, lon <strong>96.33° W</strong>; time zone <strong>Central</strong>, <strong>DST ON</strong>, date 2026-06-24. Level the tripod and set the tube to the index / home marks before aligning. When centering any align or GoTo object, always finish the move with the <strong>Up + Right</strong> buttons to take out gear backlash.</p>
+<p><strong>Two-stage alignment for tonight</strong> (it’s still twilight at 9pm, so few stars yet):</p>
+<ol type="1">
+<li><strong>9:00pm — Solar System Align</strong> on the <strong>Moon</strong> (or <strong>Venus</strong>). One bright object is enough; gets the mount tracking immediately so you can show the setting planets right away. <code>ALIGN &gt; Solar System Align &gt; Moon</code></li>
+<li><strong>~9:45–10pm (4+ stars out) — redo a full-sky align</strong> for accurate GoTo all night:
+<ul>
+<li><strong>SkyAlign</strong> (easiest with a crowd): center any <strong>3</strong> bright objects; no need to name them — the Moon and bright stars all qualify. <code>ALIGN &gt; SkyAlign</code></li>
+<li><strong>Auto Two-Star Align</strong> (most accurate): pick <strong>one</strong> named star, scope picks the second. <code>ALIGN &gt; Auto Two-Star Align</code></li>
+</ul>
+Good, well-separated align stars up tonight: <strong>Arcturus</strong> (high S), <strong>Vega</strong> (high NE), <strong>Altair</strong> (rising E later), <strong>Spica / Regulus</strong> (W). Pick two on <strong>opposite sides</strong> of the sky, <strong>&gt;40° apart</strong>; <strong>avoid the zenith</strong> and <strong>avoid Polaris</strong> as an align star.</li>
+</ol>
+<blockquote>
+<p><strong>Hand-controller entry codes</strong> are given in each row below as <code>`BUTTON &gt; list &gt; name`</code>. Messier objects take a numeric code (<code>M &gt; 13</code>); planets and stars are picked from the built-in <strong>Planet / Named-Star / Double-Star</strong> lists by name (NexStar has no numeric code for those). See the <strong>Audit</strong> note at the end for what’s verified vs. unverifiable.</p>
+</blockquote>
+<hr />
+<h2 id="run-of-show-ordered-by-what-sets-first">Run-of-show (ordered by what sets first)</h2>
+<h3 id="block-a-900930pm-opening-low-west-twilight-catch-before-they-set">Block A — 9:00–9:30pm · OPENING · low WEST, twilight — catch before they set</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Target</th>
+<th>9pm alt/az</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Venus</strong></td>
+<td>26° / WNW (274°)</td>
+<td><code>PLANET &gt; Venus</code> — Brilliant (~−3.9), gibbous phase. Setting fast — view FIRST.</td>
+</tr>
+<tr class="even">
+<td><strong>Jupiter</strong></td>
+<td>15° / WNW (285°)</td>
+<td><code>PLANET &gt; Jupiter</code> — Galilean moons visible. Below 10° by ~10pm — view early.</td>
+</tr>
+<tr class="odd">
+<td><strong>Mercury</strong></td>
+<td>12° / WNW (286°)</td>
+<td><code>PLANET &gt; Mercury</code> — Bonus twilight catch, near Venus/Jupiter. Gone by ~9:45.</td>
+</tr>
+<tr class="even">
+<td><strong>Moon</strong></td>
+<td>33° / S (170°)</td>
+<td><code>PLANET &gt; Moon</code> — Always-good; come back to it as twilight deepens.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="block-b-9301045pm-deepening-twilight-bright-doubles-moon">Block B — 9:30–10:45pm · deepening twilight · bright doubles + Moon</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Target</th>
+<th>alt/az (~10pm)</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Vega</strong></td>
+<td>45° / NE (69°)</td>
+<td><code>STAR &gt; Named &gt; Vega</code> — Brilliant blue-white; great alignment/pointing star.</td>
+</tr>
+<tr class="even">
+<td><strong>Arcturus</strong></td>
+<td>71° / S (203°)</td>
+<td><code>STAR &gt; Named &gt; Arcturus</code> — Orange giant; strong color contrast for the public.</td>
+</tr>
+<tr class="odd">
+<td><strong>Mizar &amp; Alcor</strong></td>
+<td>67° / NW (329°)</td>
+<td><code>STAR &gt; Double &gt; Mizar</code> — Naked-eye pair + telescopic double of Mizar.</td>
+</tr>
+<tr class="even">
+<td><strong>Polaris</strong></td>
+<td>36° / due N</td>
+<td><code>STAR &gt; Named &gt; Polaris</code> — “Find the North Star”; it’s a double.</td>
+</tr>
+<tr class="odd">
+<td><strong>Albireo</strong></td>
+<td>31° / ENE (76°)</td>
+<td><code>STAR &gt; Double &gt; Albireo</code> — Gold + blue, <em>the</em> showpiece. Climbs all night.</td>
+</tr>
+<tr class="even">
+<td><strong>Moon</strong></td>
+<td>33° / S→SW</td>
+<td><code>PLANET &gt; Moon</code> — Terminator craters at high contrast.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="block-c-after-1045pm-full-dark-best-doubles-globulars-near-zenith">Block C — after 10:45pm · FULL DARK · best doubles + globulars (near zenith)</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Target</th>
+<th>alt/az (~11pm)</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Epsilon Lyrae (Double-Double)</strong></td>
+<td>55° / NE</td>
+<td><code>STAR &gt; Double &gt; Epsilon Lyrae</code> — 4 stars; aperture splits both pairs.</td>
+</tr>
+<tr class="even">
+<td><strong>Izar (ε Boötis)</strong></td>
+<td>74° / overhead</td>
+<td><code>STAR &gt; Double &gt; Izar</code> (ε Boo / Pulcherrima) — tight gold+blue double.</td>
+</tr>
+<tr class="odd">
+<td><strong>Cor Caroli</strong></td>
+<td>56° / W</td>
+<td><code>STAR &gt; Double &gt; Cor Caroli</code> — easy bright wide double.</td>
+</tr>
+<tr class="even">
+<td><strong>M13 (Hercules)</strong></td>
+<td>79° / near zenith</td>
+<td><code>M &gt; 13</code> (NGC 6205) — globular, resolves to pinpoints. Showpiece.</td>
+</tr>
+<tr class="odd">
+<td><strong>M92</strong></td>
+<td>72° / NE</td>
+<td><code>M &gt; 92</code> (NGC 6341) — second Hercules globular, tighter.</td>
+</tr>
+<tr class="even">
+<td><strong>M5</strong></td>
+<td>55° / S</td>
+<td><code>M &gt; 5</code> (NGC 5904) — arguably finest summer globular.</td>
+</tr>
+<tr class="odd">
+<td><strong>Antares + Graffias (β Sco)</strong></td>
+<td>24–33° / S</td>
+<td><code>STAR &gt; Named &gt; Antares</code>; <code>Double &gt; Graffias</code> — red supergiant + double.</td>
+</tr>
+<tr class="even">
+<td><strong>M22 (Sgr)</strong></td>
+<td>17° → 28° by 1am / SE</td>
+<td><code>M &gt; 22</code> (NGC 6656) — big bright globular, rises through the block.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="quick-pointing-cheat-sheet-by-direction-for-a-360-site">Quick pointing cheat-sheet (by direction, for a 360° site)</h2>
+<ul>
+<li><strong>W / WNW (early only):</strong> Venus → Jupiter → Mercury (set by ~10:30).</li>
+<li><strong>S:</strong> Moon, Arcturus, Antares/Scorpius, M5.</li>
+<li><strong>Overhead/NE:</strong> Vega, Epsilon Lyrae, Izar, M13, M92, Albireo.</li>
+<li><strong>N:</strong> Polaris (fixed at 36°), Mizar/Alcor (NW, high).</li>
+<li><strong>SE (late):</strong> M22 climbing.</li>
+</ul>
+<h2 id="verification-day-of-check">Verification / day-of check</h2>
+<ul>
+<li>Re-run <code>scratchpad/obs.py</code> day-of to confirm (positions are stable, but good practice). Adjust block times if your actual start slips.</li>
+<li>Weather/seeing: low-west planets (Venus/Jupiter at 12–26°) need a clear WNW horizon — confirm no tree line / haze there at the site.</li>
+<li>If clouds delay start past ~10:30pm, you lose the planets; pivot straight to Block C (doubles + globulars near zenith, unaffected).</li>
+</ul>
+<hr />
+<h2 id="audit-nexstar-code-alignment-provenance">Audit — NexStar code &amp; alignment provenance</h2>
+<p>Honest verification status of everything added above (no catalog network access at build time, so unverifiable items are flagged, not guessed):</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Status</th>
+<th>Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Messier numbers (M5, M13, M22, M92)</td>
+<td>✅ certain</td>
+<td>Definitional — these <em>are</em> the catalog codes.</td>
+</tr>
+<tr class="even">
+<td>NGC cross-IDs (5904, 6205, 6656, 6341)</td>
+<td>✅ certain</td>
+<td>Standard, textbook Messier↔︎NGC cross-identifications.</td>
+</tr>
+<tr class="odd">
+<td><code>PLANET</code> / <code>STAR</code> / <code>M</code> button paths</td>
+<td>✅ verified</td>
+<td>Documented, stable NexStar+ hand-control menu structure.</td>
+</tr>
+<tr class="even">
+<td>Alignment methods (SkyAlign, Auto/2-Star, Solar System Align)</td>
+<td>✅ verified</td>
+<td>Standard Celestron NexStar alignment features.</td>
+</tr>
+<tr class="odd">
+<td>Named-/Double-Star <strong>list placement &amp; spelling</strong></td>
+<td>⚠ confirm on unit</td>
+<td>Exact list a star lives in (Named vs Double) and its label vary by firmware/model — scroll to find it. Izar may read “Pulcherrima” or “ε Boo”; Graffias may read “Acrab” / “β Sco”.</td>
+</tr>
+<tr class="even">
+<td><strong>SAO direct-entry numbers</strong></td>
+<td>❌ withheld</td>
+<td>Could not verify against a catalog offline. <strong>Not provided</strong> rather than fabricated. Ask me to fetch verified SAO numbers when networked.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bottom line:</strong> every numeric code printed is verified; the only soft spots are the exact star-list names in your specific hand controller — those you confirm by scrolling the list at the scope. No SAO numbers were invented.</p>
+</body>
+</html>
