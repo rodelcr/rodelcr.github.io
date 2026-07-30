@@ -12,6 +12,9 @@
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
+    <!-- Ambient lensed starfield -->
+    <canvas id="starfield" aria-hidden="true"></canvas>
+
     <!-- Header -->
     {%- include header.html %}
 
@@ -30,5 +33,6 @@
     {% include scripts/misc.html %}
     {% include scripts/mathjax.html %}
     {% include scripts/analytics.html %}
+    <script defer src="{{ '/assets/js/starfield.js' | relative_url }}"></script>
   </body>
 </html>

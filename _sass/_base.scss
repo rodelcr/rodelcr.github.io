@@ -8,6 +8,14 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
+// Display face. Headings go monospace against Roboto body copy; the contrast
+// is what carries the redesign's identity without touching any layout.
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-mono-display;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -60,6 +68,50 @@ blockquote {
   text-align: center;
 }
 
+// Content surface
+//
+// Everything readable sits on a translucent, blurred panel so that prose never
+// has to compete with a lensed arc drifting behind it. Tune these two values
+// (alpha in $day-surface / $night-surface, and the blur radius) before
+// touching star density -- this is the lever that decides legibility.
+
+.post {
+  background-color: var(--global-surface-color);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  padding: 2rem 2.25rem;
+}
+
+@media (max-width: 576px) {
+  .post {
+    padding: 1.25rem 1rem;
+    border-radius: 6px;
+  }
+}
+
+// Bootstrap/MDB outline buttons (used on the contact page) ship hardcoded
+// Google-blue and purple. Pull them onto the site palette so they stop
+// clashing with the theme accent. MDB declares these with !important, and
+// main.css loads after mdb.min.css, so matching that weight is what it takes.
+.btn-outline-primary {
+  border-color: var(--global-theme-color) !important;
+  color: var(--global-theme-color) !important;
+  &:hover, &:focus, &:active {
+    background-color: var(--global-theme-color) !important;
+    color: var(--global-bg-color) !important;
+  }
+}
+.btn-outline-secondary {
+  border-color: var(--global-text-color-light) !important;
+  color: var(--global-text-color-light) !important;
+  &:hover, &:focus, &:active {
+    background-color: var(--global-text-color-light) !important;
+    color: var(--global-bg-color) !important;
+  }
+}
+
 // Card
 
 .card {
@@ -71,6 +123,10 @@ blockquote {
 
   .card-title {
     color: var(--global-text-color);
+    // Mono runs wide; without this, project titles set at the inherited
+    // heading size dominate the card and wrap onto three lines.
+    font-size: 1.15rem;
+    letter-spacing: -0.01em;
   }
 
   .card-item {
@@ -134,8 +190,12 @@ blockquote {
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  // Translucent + blurred rather than the old flat `opacity: 0.95`, which
+  // faded the links themselves. This lets the starfield show through the bar
+  // while keeping the text at full contrast.
+  background-color: var(--global-surface-color);
+  backdrop-filter: saturate(150%) blur(10px);
+  -webkit-backdrop-filter: saturate(150%) blur(10px);
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
@@ -165,9 +225,21 @@ blockquote {
   }
   .navbar-brand {
     color: var(--global-text-color);
+    font-family: $font-mono-display;
+    letter-spacing: -0.01em;
+    // Mono is wider than Roboto at the same size; step down so the brand plus
+    // the uppercase nav still fit inside the 800px container without wrapping.
+    font-size: 1.1rem;
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-family: $font-mono-display;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    white-space: nowrap;
     &:hover {
       color: var(--global-hover-color);
     }

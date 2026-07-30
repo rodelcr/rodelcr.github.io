@@ -2,14 +2,34 @@
  * Content
  ******************************************************************************/
 
+// The page background lives on <html> rather than <body> so that the
+// starfield canvas (z-index: -1) is unambiguously painted above it. If <body>
+// owned the background it would propagate to the viewport canvas anyway, but
+// being explicit avoids depending on that rule.
+html {
+  background-color: var(--global-bg-color);
+}
+
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
-  background-color: var(--global-bg-color);
+  background-color: transparent;
 
   h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 66px;
   }
+}
+
+// Ambient lensed starfield. Sits behind everything, never interactive.
+#starfield {
+  position: fixed;
+  // inset rather than 100vw/100vh: on platforms with classic (space-taking)
+  // scrollbars, 100vw exceeds the available width and would briefly force a
+  // horizontal scrollbar before the script sets an explicit pixel size.
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  display: block;
 }
 
 body.fixed-top-nav {
