@@ -20,11 +20,16 @@
   // magnified arc drifting past behind it.
   --global-surface-color: #{$day-surface};
 
-  // Read by assets/js/starfield.js.
+  // Read by assets/js/starfield.js. Same alpha as the night theme on purpose:
+  // inverting only the ink colour left the day field at about a third of the
+  // night field's on-page contrast, which read as washed out rather than as a
+  // negative. Matching the alpha makes the two themes symmetric -- ink-to-paper
+  // delta ~68 against star-to-sky ~67. Prose stays legible because it sits on
+  // the blurred --global-surface-color panel, not directly on the field.
   --star-warm: #{$star-warm-day};
   --star-cool: #{$star-cool-day};
   --star-blend: multiply;
-  --star-alpha: 0.30;
+  --star-alpha: 0.85;
 
   .fa-sun {
     display : none;

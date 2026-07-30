@@ -57,12 +57,17 @@ $day-accent:        #1f6f8b;
 $day-divider:       rgba(27, 37, 48, 0.12);
 
 // Star ink. In the night theme these are the warm/cool ends of the stellar
-// colour ramp, composited additively. In the day theme both ends are dark and
-// composited multiplicatively, giving the negative-plate look.
+// colour ramp, composited additively.
 $star-warm-night:   #fff3d6;
 $star-cool-night:   #cfe2ff;
-$star-warm-day:     #4a5a6a;
-$star-cool-day:     #2f4356;
+
+// The day theme is a true photographic negative: the exact channel-wise
+// inverse of the night colours, composited multiplicatively. Derived rather
+// than hand-picked so the two themes stay exact inverses if the night ramp is
+// ever retuned. Note the warm/cool sense flips, which is what inversion does --
+// the warm cream star becomes the cooler of the two dark inks.
+$star-warm-day:     invert($star-warm-night);   // #fff3d6 -> #000c29
+$star-cool-day:     invert($star-cool-night);   // #cfe2ff -> #301d00
 
 // Monospace display face, used for headings and navigation.
 $font-mono-display: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
