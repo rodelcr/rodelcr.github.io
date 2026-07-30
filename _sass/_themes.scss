@@ -3,18 +3,33 @@
  ******************************************************************************/
  
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #{$day-bg};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-text-color: #{$day-text};
+  --global-text-color-light: #{$day-text-muted};
+  --global-theme-color: #{$day-accent};
+  --global-hover-color: #{$day-accent};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0,0,0,.1);
-  --global-card-bg-color: #{$white-color};
+  --global-divider-color: #{$day-divider};
+  --global-card-bg-color: #{$day-card};
+
+  // Translucent panel the content sits on, so text never competes with a
+  // magnified arc drifting past behind it.
+  --global-surface-color: #{$day-surface};
+
+  // Read by assets/js/starfield.js. Same alpha as the night theme on purpose:
+  // inverting only the ink colour left the day field at about a third of the
+  // night field's on-page contrast, which read as washed out rather than as a
+  // negative. Matching the alpha makes the two themes symmetric -- ink-to-paper
+  // delta ~68 against star-to-sky ~67. Prose stays legible because it sits on
+  // the blurred --global-surface-color panel, not directly on the field.
+  --star-warm: #{$star-warm-day};
+  --star-cool: #{$star-cool-day};
+  --star-blend: multiply;
+  --star-alpha: 0.85;
 
   .fa-sun {
     display : none;
@@ -34,18 +49,25 @@
 }
 
 html[data-theme='dark'] {
-  --global-bg-color: #{$grey-color-dark};
+  --global-bg-color: #{$night-bg};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-text-color: #{$night-text};
+  --global-text-color-light: #{$night-text-muted};
+  --global-theme-color: #{$night-accent};
+  --global-hover-color: #{$night-accent};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-divider-color: #{$night-divider};
+  --global-card-bg-color: #{$night-card};
+
+  --global-surface-color: #{$night-surface};
+
+  --star-warm: #{$star-warm-night};
+  --star-cool: #{$star-cool-night};
+  --star-blend: lighter;
+  --star-alpha: 0.85;
 
   .fa-sun {
     padding-left: 10px;

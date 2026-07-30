@@ -32,6 +32,47 @@ $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
 
+// Starfield redesign palette
+//
+// Two coordinated sets: a deep-night sky and a paper "plate" day. Consumed
+// only through the --global-* / --star-* custom properties in _themes.scss,
+// so this block is the single place to retune the site's colour identity.
+
+// Night
+$night-bg:          #0a0e14;
+$night-surface:     rgba(13, 18, 26, 0.72);
+$night-card:        #121821;
+$night-text:        #dbe3ec;
+$night-text-muted:  #8b98a9;
+$night-accent:      #6fc3df;
+$night-divider:     rgba(219, 227, 236, 0.14);
+
+// Day
+$day-bg:            #f7f6f1;
+$day-surface:       rgba(252, 251, 248, 0.78);
+$day-card:          #ffffff;
+$day-text:          #1b2530;
+$day-text-muted:    #5d6b7a;
+$day-accent:        #1f6f8b;
+$day-divider:       rgba(27, 37, 48, 0.12);
+
+// Star ink. In the night theme these are the warm/cool ends of the stellar
+// colour ramp, composited additively.
+$star-warm-night:   #fff3d6;
+$star-cool-night:   #cfe2ff;
+
+// The day theme is a true photographic negative: the exact channel-wise
+// inverse of the night colours, composited multiplicatively. Derived rather
+// than hand-picked so the two themes stay exact inverses if the night ramp is
+// ever retuned. Note the warm/cool sense flips, which is what inversion does --
+// the warm cream star becomes the cooler of the two dark inks.
+$star-warm-day:     invert($star-warm-night);   // #fff3d6 -> #000c29
+$star-cool-day:     invert($star-cool-night);   // #cfe2ff -> #301d00
+
+// Monospace display face, used for headings and navigation.
+$font-mono-display: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+
 // Theme colors
 
 $code-bg-color-light:     rgba($purple-color, 0.05);
