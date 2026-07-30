@@ -4,11 +4,24 @@
 
   <picture>
     {% if site.imagemagick.enabled %}
-    {% for i in site.imagemagick.widths -%}
+    {%- assign ws = site.imagemagick.widths -%}
+    {%- assign w_max = ws | last -%}
+    {%- comment -%}
+      Each breakpoint offers a density ladder rather than a single file. The
+      media queries are in CSS pixels, so a 390pt phone at 3x DPR matches the
+      480px breakpoint but paints into ~1170 device pixels -- serving it the
+      480px file left it visibly under-resolved. The 2x/3x candidates let the
+      browser pick a file that actually matches its pixel density.
+    {%- endcomment -%}
+    {% for i in ws -%}
+      {%- assign i2 = forloop.index0 | plus: 1 -%}
+      {%- assign i3 = forloop.index0 | plus: 2 -%}
+      {%- assign w2 = ws[i2] | default: w_max -%}
+      {%- assign w3 = ws[i3] | default: w_max -%}
       <source
         class="responsive-img-srcset"
         media="(max-width: {{ i }}px)"
-        srcset="{{ img_path | relative_url }}-{{ i }}.webp"
+        srcset="{{ img_path | relative_url }}-{{ i }}.webp 1x, {{ img_path | relative_url }}-{{ w2 }}.webp 2x, {{ img_path | relative_url }}-{{ w3 }}.webp 3x"
       />
     {% endfor -%}
     {%- comment -%}

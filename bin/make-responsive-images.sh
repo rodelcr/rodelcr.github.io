@@ -22,6 +22,12 @@
 # this after adding or replacing anything in assets/img/.
 #
 # Uses cwebp (brew install webp). macOS sips cannot write WebP.
+#
+# QUALITY is 90 rather than cwebp's usual 75-82 web default. figure.html serves
+# these to high-DPI screens via density descriptors, so a phone can land on the
+# 1400px variant; at q90 that is ~425 KB against a 4.4 MB original, i.e. a 10x
+# reduction rather than the ~90x that aggressive settings gave. Measured on
+# prof_pic.jpg: 1400px q82 = 261 KB (17x), q90 = 424 KB (10x), q95 = 695 KB (6x).
 
 set -euo pipefail
 
@@ -29,7 +35,7 @@ cd "$(dirname "$0")/.."
 
 SRC_DIR="assets/img"
 WIDTHS=(480 800 1400)
-QUALITY=82
+QUALITY=90
 FORCE="${1:-}"
 
 command -v cwebp >/dev/null || { echo "cwebp not found -- brew install webp" >&2; exit 1; }

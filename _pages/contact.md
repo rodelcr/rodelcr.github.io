@@ -47,8 +47,12 @@ description: Postdoctoral Fellow · Center for Astrophysics | Harvard & Smithson
        committed because jekyll-imagemagick does not run on GitHub Pages;
        regenerate with bin/make-responsive-images.sh -->
   <picture>
-    <source media="(max-width: 480px)" srcset="{{ '/assets/img/prof_pic-480.webp' | relative_url }}" />
-    <source srcset="{{ '/assets/img/prof_pic-800.webp' | relative_url }}" />
+    <source media="(max-width: 480px)"
+            srcset="{{ '/assets/img/prof_pic-480.webp' | relative_url }} 1x,
+                    {{ '/assets/img/prof_pic-800.webp' | relative_url }} 2x,
+                    {{ '/assets/img/prof_pic-1400.webp' | relative_url }} 3x" />
+    <source srcset="{{ '/assets/img/prof_pic-800.webp' | relative_url }} 1x,
+                    {{ '/assets/img/prof_pic-1400.webp' | relative_url }} 2x" />
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="profile rounded-circle"
          width="220" height="220" alt="Rodrigo Córdova Rosado" />
   </picture>
