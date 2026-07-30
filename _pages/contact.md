@@ -26,7 +26,20 @@ description: Postdoctoral Fellow · Center for Astrophysics | Harvard & Smithson
   .contact-card .contact-buttons .btn { margin: 0.4rem; }
   .contact-card .social { font-size: 1.6rem; margin-top: 2rem; }
   .contact-card .social a { margin: 0 0.35rem; }
+  .contact-card .vcard-note {
+    color: var(--global-text-color-light);
+    font-size: 0.8rem;
+    margin: 0.75rem auto 0;
+    max-width: 34ch;
+  }
+  .contact-card .vcard-note code { font-size: 0.78rem; }
 </style>
+
+<!-- The contact-card link deliberately has no `download` attribute: on iOS
+     Safari `download` saves the file into Files instead of handing it to
+     Contacts, which defeats the point. Letting Safari open it inline is what
+     triggers the "Add Contact" sheet. Regenerate the .vcf with bin/make-vcard.sh -->
+
 
 <div class="contact-card">
   <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="profile rounded-circle" alt="Rodrigo Córdova Rosado" />
@@ -38,10 +51,19 @@ description: Postdoctoral Fellow · Center for Astrophysics | Harvard & Smithson
     <a class="btn btn-outline-primary btn-lg" href="mailto:{{ site.email | encode_email }}">
       <i class="fas fa-envelope"></i>&nbsp; Email me
     </a>
+    <a class="btn btn-outline-primary btn-lg"
+       href="{{ '/assets/vcard/rodrigo-cordova-rosado.vcf' | relative_url }}"
+       type="text/vcard">
+      <i class="fas fa-address-card"></i>&nbsp; Save contact card
+    </a>
     <a class="btn btn-outline-secondary btn-lg" href="{{ '/' | relative_url }}">
       <i class="fas fa-home"></i>&nbsp; Home
     </a>
   </div>
+
+  <p class="vcard-note">
+    Opens in Contacts on iPhone and Android; downloads a <code>.vcf</code> on desktop.
+  </p>
 
   <div class="social">
     {% include social.html %}

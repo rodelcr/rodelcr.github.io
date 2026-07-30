@@ -67,7 +67,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: rodelcr # your GitHub user name
+github_username:  # intentionally blank -- no GitHub icon/link on the site
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: rodrigo-cordova-rosado # your LinkedIn user name
@@ -88,7 +88,7 @@ ads_url: https://ui.adsabs.harvard.edu/public-libraries/EtvCAus0Qmi3bKGjTebBAw
 show_cv: yes
 
 contact_note: >
-  Email, ADS, ORCID, GitHub, LinkedIn, and CV.
+  Email, ADS, ORCID, LinkedIn, and CV.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
