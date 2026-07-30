@@ -42,7 +42,16 @@ description: Postdoctoral Fellow · Center for Astrophysics | Harvard & Smithson
 
 
 <div class="contact-card">
-  <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="profile rounded-circle" alt="Rodrigo Córdova Rosado" />
+  <!-- Served as WebP variants rather than the 4.4 MB original, which is kept
+       only as a fallback for browsers without WebP support. Variants are
+       committed because jekyll-imagemagick does not run on GitHub Pages;
+       regenerate with bin/make-responsive-images.sh -->
+  <picture>
+    <source media="(max-width: 480px)" srcset="{{ '/assets/img/prof_pic-480.webp' | relative_url }}" />
+    <source srcset="{{ '/assets/img/prof_pic-800.webp' | relative_url }}" />
+    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="profile rounded-circle"
+         width="220" height="220" alt="Rodrigo Córdova Rosado" />
+  </picture>
 
   <h1>Rodrigo Córdova Rosado</h1>
   <p class="tagline">Postdoctoral Fellow · Center for Astrophysics | Harvard &amp; Smithsonian</p>

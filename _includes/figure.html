@@ -5,12 +5,23 @@
   <picture>
     {% if site.imagemagick.enabled %}
     {% for i in site.imagemagick.widths -%}
-      <source 
+      <source
         class="responsive-img-srcset"
-        media="(max-width: {{ i }}px)" 
+        media="(max-width: {{ i }}px)"
         srcset="{{ img_path | relative_url }}-{{ i }}.webp"
       />
     {% endfor -%}
+    {%- comment -%}
+      Catch-all with no media query. Every source above is a max-width match, so
+      a viewport wider than the largest configured width matched none of them and
+      fell through to the original file -- which for these photos means tens of
+      megabytes. This keeps the original as a true last resort, used only when
+      the browser cannot handle WebP at all.
+    {%- endcomment -%}
+      <source
+        class="responsive-img-srcset"
+        srcset="{{ img_path | relative_url }}-{{ site.imagemagick.widths | last }}.webp"
+      />
     {% endif %}
 
     <!-- Fallback to the original file -->
