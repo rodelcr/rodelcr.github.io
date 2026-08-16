@@ -1,4 +1,24 @@
-  {%- if site.enable_math -%}
+{%- comment -%}
+  MathJax is ~170 KB gzipped (810 KB raw) and was loading on every page even
+  though no page on the site uses math. It now loads only where math is
+  actually present: set `math: true` in a page's front matter, or just write
+  `$$...$$` and the content check below picks it up.
+
+  The polyfill.io tag that used to sit alongside this was removed in Aug 2026.
+  That domain was taken over and served malware in June 2024 and now resolves
+  to 0.0.0.0, so the request failed on every page load. MathJax 3 targets
+  ES6 browsers directly and does not need it.
+{%- endcomment -%}
+{%- if site.enable_math -%}
+  {%- assign needs_math = false -%}
+  {%- if page.math -%}
+    {%- assign needs_math = true -%}
+  {%- elsif page.content contains '$$' -%}
+    {%- assign needs_math = true -%}
+  {%- elsif page.content contains 'math/tex' -%}
+    {%- assign needs_math = true -%}
+  {%- endif -%}
+  {%- if needs_math -%}
   <!-- MathJax -->
   <script type="text/javascript">
     window.MathJax = {
@@ -8,5 +28,5 @@
     };
   </script>
   <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@{{ site.mathjax.version }}/es5/tex-mml-chtml.js"></script>
-  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  {%- endif %}
+  {%- endif -%}
+{%- endif %}

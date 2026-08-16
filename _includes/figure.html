@@ -50,6 +50,13 @@
       {% if include.alt %}alt="{{ include.alt }}"{% endif %} 
       {% if include.title %}title="{{ include.title }}"{% endif %} 
       {% if include.zoomable %}data-zoomable{% endif %}
+      {%- comment -%}
+        Gallery pages carry a dozen figures, none of which are visible on load.
+        Lazy is the right default; pass `loading: eager` for anything above the
+        fold (the About portrait) so lazily deferring it does not push out LCP.
+      {%- endcomment -%}
+      loading="{{ include.loading | default: 'lazy' }}"
+      decoding="async"
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
     />
 

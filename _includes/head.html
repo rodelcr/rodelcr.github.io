@@ -1,6 +1,17 @@
     <!-- Metadata, OpenGraph and Schema.org -->
     {% include metadata.html %}
 
+    {%- comment -%}
+      Nine render-blocking stylesheets below are spread across three hosts, so
+      nothing paints until each host has finished its own DNS + TLS handshake.
+      Warming the two that serve the most files (jsdelivr has six of the nine)
+      overlaps those handshakes with the HTML parse instead of paying them
+      serially. fonts.gstatic is preconnected further down, where the font CSS
+      that pulls from it is declared.
+    {%- endcomment -%}
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <!-- Bootstrap & MDB -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@{{ site.bootstrap.version }}/dist/css/bootstrap.min.css" rel="stylesheet" integrity="{{ site.bootstrap.integrity.css }}" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@{{ site.mdb.version }}/css/mdb.min.css" integrity="{{ site.mdb.integrity.css }}" crossorigin="anonymous" />
