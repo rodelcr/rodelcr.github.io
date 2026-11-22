@@ -79,6 +79,13 @@ My artistic practice highlights the environments and beings that shaped my ances
 
 I also like to write about astronomy in the most-circulated Puerto Rican newspaper, el Nuevo Día. You can find clippings of my articles and their translations <a href="https://drive.google.com/drive/folders/1YD75A-IMlx4lFywhc-yM-L9Q_g0DcvrZ?usp=share_link">here</a>.
 
+- ["Tierra y memoria"](https://www.dailyprincetonian.com/article/2022/10/prospect-self-essay-indigenous-peoples-osage-borinquen-middle-waters-princeton), *The Daily Princetonian*, The Prospect, 9 October 2022
+- ["Huye Luna, Luna, Luna"](https://www.elnuevodia.com/opinion/punto-de-vista/huye-luna-luna-luna/), *El Nuevo Día*, 23 July 2023
+- ["Homo naledi, seres de la estrella creciente"](https://www.elnuevodia.com/opinion/punto-de-vista/homo-naledi-seres-de-la-estrella-creciente/), *El Nuevo Día*, 7 June 2023
+- ["Cuatro minutos: Starship y el inicio de una nueva era de exploración espacial"](https://www.elnuevodia.com/opinion/desde-la-diaspora/cuatro-minutos-starship-y-el-inicio-de-una-nueva-era-de-exploracion-espacial/), *El Nuevo Día*, 21 April 2023
+- ["Universos paralelos de dos telescopios boricuas"](https://www.elnuevodia.com/opinion/desde-la-diaspora/universos-paralelos-de-dos-telescopios-boricuas/), *El Nuevo Día*, 16 October 2022
+- ["El telescopio espacial James Webb y el futuro de la astronomía puertorriqueña"](https://www.elnuevodia.com/opinion/desde-la-diaspora/el-telescopio-espacial-james-webb-y-el-futuro-de-la-astronomia-puertorriquena/), *El Nuevo Día*, 13 July 2022
+
 More of my photography is on the [Other](/other/) page.
 
 Please do not reproduce these images without attribution. All rights reserved, Rodrigo Córdova Rosado, 2026.
