@@ -74,10 +74,10 @@ My artistic practice highlights the environments and beings that shaped my ances
 
 <div class="row mt-3">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/portfolio-gorget.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Shell gorget on red cloth" caption="𐓏𐒰𐓁𐓂́͘𐓄ʼ𐒻͘ — Necklace/Gorget, 2024" %}
+    {% include figure.html path="assets/img/portfolio-gorget.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Shell gorget on red cloth" caption="𐓏𐓘𐓩𐓪́͘𐓬ʼ𐓣͘ — Necklace/Gorget, 2024" %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/portfolio-moccasins.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Beaded moccasins on red cloth" caption="𐒹𐓂̄͘𐓄𐒷́ — Moccasins, 2024" %}
+    {% include figure.html path="assets/img/portfolio-moccasins.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Beaded moccasins on red cloth" caption="𐒹𐓪̄͘𐓬𐓟́ — Moccasins, 2024" %}
   </div>
 </div>
 
