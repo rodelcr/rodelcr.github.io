@@ -8,14 +8,6 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
-// Display face. Headings go monospace against Roboto body copy; the contrast
-// is what carries the redesign's identity without touching any layout.
-h1, h2, h3, h4, h5, h6 {
-  font-family: $font-mono-display;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
-
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -123,10 +115,6 @@ blockquote {
 
   .card-title {
     color: var(--global-text-color);
-    // Mono runs wide; without this, project titles set at the inherited
-    // heading size dominate the card and wrap onto three lines.
-    font-size: 1.15rem;
-    letter-spacing: -0.01em;
   }
 
   .card-item {
@@ -225,21 +213,9 @@ blockquote {
   }
   .navbar-brand {
     color: var(--global-text-color);
-    font-family: $font-mono-display;
-    letter-spacing: -0.01em;
-    // Mono is wider than Roboto at the same size; step down so the brand plus
-    // the uppercase nav still fit inside the 800px container without wrapping.
-    font-size: 1.1rem;
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
-    font-family: $font-mono-display;
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    padding-left: 0.4rem;
-    padding-right: 0.4rem;
-    white-space: nowrap;
     &:hover {
       color: var(--global-hover-color);
     }
