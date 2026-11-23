@@ -34,6 +34,12 @@ My artistic practice highlights the environments and beings that shaped my ances
 
 <div class="row mt-3">
   <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/portfolio-photo-acadia.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Panorama of sunrise over the sea and islands from Acadia, Maine" caption="Sunrise from Acadia, Maine, 2022. Exhibited at the Center for Astrophysics Art Show, 2025" %}
+  </div>
+</div>
+
+<div class="row mt-3">
+  <div class="col-sm mt-3 mt-md-0">
     {% include figure.html path="assets/img/portfolio-photo-3.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Black-and-white photograph of boats on tidal flats at dusk" %}
   </div>
 </div>
