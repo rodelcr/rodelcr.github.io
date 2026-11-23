@@ -66,7 +66,7 @@ My artistic practice highlights the environments and beings that shaped my ances
 
 <div class="row mt-3">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/portfolio-painting.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Oil painting of a sky, sea and green hills" caption="Oil on canvas" %}
+    {% include figure.html path="assets/img/portfolio-painting.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Oil painting of a sky, sea and green hills" caption="La casa hecha de ladrillos, 2019, óleo sobre lienzo" %}
   </div>
 </div>
 
@@ -74,10 +74,10 @@ My artistic practice highlights the environments and beings that shaped my ances
 
 <div class="row mt-3">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/portfolio-gorget.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Shell gorget on red cloth" caption="Gorget" %}
+    {% include figure.html path="assets/img/portfolio-gorget.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Shell gorget on red cloth" caption="𐓏𐒰𐓁𐓂́͘𐓄ʼ𐒻͘ — Necklace/Gorget, 2024" %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/portfolio-moccasins.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Beaded moccasins on red cloth" caption="Beaded moccasins" %}
+    {% include figure.html path="assets/img/portfolio-moccasins.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Beaded moccasins on red cloth" caption="𐒹𐓂̄͘𐓄𐒷́ — Moccasins, 2024" %}
   </div>
 </div>
 
